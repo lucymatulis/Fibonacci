@@ -24,6 +24,11 @@ public class Fiboooooo extends javax.swing.JFrame {
      */
     @SuppressWarnings("unchecked")
     
+    /**
+     * gets fibonacci term at x
+     * param: int x
+     * post = fibonacci term at x
+     */
     public int fib(int x){
       if(x==2||x==1){
           return 1;
